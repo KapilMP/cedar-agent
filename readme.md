@@ -55,6 +55,7 @@ docker run --rm -p 8181:8181 \
 # Test health endpoint
 curl http://localhost:8181/health
 # Expected: {"status":"ok"}
+
 ```
 
 ### Test Authorization
